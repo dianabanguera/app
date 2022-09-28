@@ -1,0 +1,32 @@
+.menu-header {
+    display: inline-flex;
+}
+
+header, nav {
+    height: 80px;
+}
+
+.menu-header .logo-header {
+    height: 100%;
+}
+
+.menu-responsive {
+    width: 80px;
+}
+
+.logo-header {
+    -webkit-box-flex: 1;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    min-width: 236px;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
